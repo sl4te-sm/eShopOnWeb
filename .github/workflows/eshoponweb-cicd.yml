@@ -39,7 +39,7 @@ jobs:
         name: .net-app
         path: ${{env.DOTNET_ROOT}}/myapp
         
-    # upload the bicep template as artifacts for next job
+    # upload the bicep template as artifact for next job
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v3
       with:
